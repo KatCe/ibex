@@ -17,7 +17,7 @@ vsim -64 -lib $LIB $DEBUGDBARG $VOPTARGS tb_top
 
 log -r /*
 
-do wave.do
+# do wave.do
 restart
 run 1000ns
 
